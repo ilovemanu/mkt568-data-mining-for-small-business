@@ -2,7 +2,7 @@
 title: "MKT568"
 author: "Yang Fu"
 date: "4/24/2019"
-output: rmarkdown::github_document
+output: html_document
 ---
 
 ```{r}
@@ -78,6 +78,10 @@ ggplot(btop,aes(x="",y=p,fill=reorder(Item,-p)))+geom_bar(width=1, stat="identit
   blank_theme+theme(axis.text.x=element_blank())+
   geom_text(aes(label=percent(p)),position=position_stack(vjust=0.5))+
   labs(x=NULL,y=NULL,fill=NULL,title="Top 10 Sales by %")
+#+guides(fill = guide_legend(reverse = TRUE))
+#scale_fill_grey() + theme_minimal()
+#bar + coord_polar("y")
+
 ```
 
 
