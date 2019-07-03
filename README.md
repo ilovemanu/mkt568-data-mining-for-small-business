@@ -6,4 +6,4 @@ In this project we applied the following analyses on the BreadBasket Dataset:
 - Market Basket analysis (association rule)
 Based on the findings, we then recognized some business growth opportunities and came up with the corresponding business strategies.
 
-The complete story is described in the pdf file. Raw code implementation can be found in MKT568.Rmd. Code with output can be found in MKT568.html.
+The complete story is described in the pdf file. Raw code implementation can be found in MKT568.R. Code with output can be found in MKT568.html.
